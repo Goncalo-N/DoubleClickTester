@@ -3,6 +3,7 @@ var textarea = document.getElementById('textarea');
 var clicks = document.getElementById('count');
 var dcCount = document.getElementById('dcCount');
 var reset = document.getElementById('reset');
+
 reset.onclick = function() {
   clicks.value = 0;
   dcCount.value = 0;
